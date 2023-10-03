@@ -1,0 +1,15 @@
+---
+title: "HelloWorld"
+author: "Nomen Nescio"
+date: "`r Sys.Date()`"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file
